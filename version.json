@@ -7,7 +7,7 @@
   "release_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/tag/V1.6.3",
   "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.3/offline-downloader-docker-v1.6.3.tar.gz",
   "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.3/offline-downloader-onekey-install-v1.6.3.sh",
-  "force_update": false,
+  "force_update": true,
   "minimum_required_version": "",
   "notes": {
     "zh": [
