@@ -1,0 +1,23 @@
+{
+  "name": "OfflineDownloader",
+  "version": "V1.6.4",
+  "channel": "stable",
+  "release_date": "2026-05-11",
+  "homepage": "https://github.com/zzgood-cmd/OfflineDownloader",
+  "release_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/tag/V1.6.4",
+  "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.4/offline-downloader-docker-v1.6.4.tar.gz",
+  "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.4/offline-downloader-onekey-install-v1.6.4.sh",
+  "force_update": false,
+  "minimum_required_version": "",
+  "notes": {
+    "zh": [
+      "滑块验证码改为后端校验滑动轨迹，会检查耗时、移动次数和距离变化。",
+      "拖动通过后由后端签发短期登录票据，登录页不再直接暴露滑块验证 token。"
+    ],
+    "en": [
+      "Slider captcha now validates movement traces on the backend, including duration, move count, and distance changes.",
+      "After verification, the backend issues a short-lived login ticket instead of exposing the slider token directly on the login page."
+    ]
+  },
+  "minimum_supported_version": "V1.0.0"
+}
