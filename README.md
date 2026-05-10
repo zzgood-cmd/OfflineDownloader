@@ -107,7 +107,3 @@ bash uninstall.sh
 ```
 
 默认卸载不会删除 `data/` 和 `downloads/`。
-
-## License
-
-本项目仅供学习和合法用途使用。发布到 GitHub 前，请根据你的需要补充正式开源许可证。
