@@ -1,0 +1,23 @@
+{
+  "name": "OfflineDownloader",
+  "version": "V1.6.1",
+  "channel": "stable",
+  "release_date": "2026-05-11",
+  "homepage": "https://github.com/zzgood-cmd/OfflineDownloader",
+  "release_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/tag/V1.6.1",
+  "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.1/offline-downloader-docker-v1.6.1.tar.gz",
+  "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.1/offline-downloader-onekey-install-v1.6.1.sh",
+  "force_update": false,
+  "minimum_required_version": "",
+  "notes": {
+    "zh": [
+      "登录后自动检查 GitHub 最新版本，有新版本会提示管理员是否更新。",
+      "版本更新面板会自动显示检测到的最新版本，并可继续一键下载更新包。"
+    ],
+    "en": [
+      "Automatically checks GitHub for a new version after login and prompts admins when one is available.",
+      "The update panel shows the detected latest version and still supports one-click package download."
+    ]
+  },
+  "minimum_supported_version": "V1.0.0"
+}
