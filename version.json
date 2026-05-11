@@ -1,22 +1,26 @@
 {
   "name": "OfflineDownloader",
-  "version": "V1.6.4",
+  "version": "V1.6.5",
   "channel": "stable",
   "release_date": "2026-05-11",
   "homepage": "https://github.com/zzgood-cmd/OfflineDownloader",
-  "release_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/tag/V1.6.4",
-  "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.4/offline-downloader-docker-v1.6.4.tar.gz",
-  "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.4/offline-downloader-onekey-install-v1.6.4.sh",
-  "force_update": true,
+  "release_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/tag/V1.6.5",
+  "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.5/offline-downloader-docker-v1.6.5.tar.gz",
+  "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.5/offline-downloader-onekey-install-v1.6.5.sh",
+  "force_update": false,
   "minimum_required_version": "",
+  "maintenance_enabled": false,
+  "maintenance_block": false,
+  "maintenance_title": "维护公告",
+  "maintenance_message": "此项目已停止维护，感谢你的使用。",
   "notes": {
     "zh": [
-      "滑块验证码改为后端校验滑动轨迹，会检查耗时、移动次数和距离变化。",
-      "拖动通过后由后端签发短期登录票据，登录页不再直接暴露滑块验证 token。"
+      "管理员新增配置备份/恢复，可导出账号、额度、设置、Tracker 和任务来源等配置。",
+      "恢复配置前会自动保存当前配置快照，避免误操作后无法找回。"
     ],
     "en": [
-      "Slider captcha now validates movement traces on the backend, including duration, move count, and distance changes.",
-      "After verification, the backend issues a short-lived login ticket instead of exposing the slider token directly on the login page."
+      "Admins can now back up and restore configuration such as accounts, quotas, settings, trackers, and task sources.",
+      "A snapshot of the current configuration is saved before restore to reduce accidental data loss."
     ]
   },
   "minimum_supported_version": "V1.0.0"

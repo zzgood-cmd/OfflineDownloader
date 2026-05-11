@@ -98,7 +98,20 @@ bash update.sh
 https://raw.githubusercontent.com/zzgood-cmd/OfflineDownloader/main/version.json
 ```
 
-当前稳定版：`V1.6.4`
+当前稳定版：`V1.6.5`
+
+`version.json` 还支持维护公告字段，默认关闭：
+
+```json
+{
+  "maintenance_enabled": false,
+  "maintenance_block": false,
+  "maintenance_title": "维护公告",
+  "maintenance_message": "此项目已停止维护，感谢你的使用。"
+}
+```
+
+当 `maintenance_enabled` 和 `maintenance_block` 都为 `true` 时，程序会显示维护公告并暂停登录和业务接口。
 
 ## 卸载
 
@@ -107,3 +120,7 @@ bash uninstall.sh
 ```
 
 默认卸载不会删除 `data/` 和 `downloads/`。
+
+## License
+
+本项目仅供学习和合法用途使用。发布到 GitHub 前，请根据你的需要补充正式开源许可证。
