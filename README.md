@@ -98,7 +98,7 @@ bash update.sh
 https://raw.githubusercontent.com/zzgood-cmd/OfflineDownloader/main/version.json
 ```
 
-当前稳定版：`V1.7.7`
+当前稳定版：`V1.7.8`
 
 ## 卸载
 
