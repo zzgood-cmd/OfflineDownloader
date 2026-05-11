@@ -9,8 +9,8 @@
   "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.5/offline-downloader-onekey-install-v1.6.5.sh",
   "force_update": false,
   "minimum_required_version": "",
-  "maintenance_enabled": true,
-  "maintenance_block": true,
+  "maintenance_enabled": false,
+  "maintenance_block": false,
   "maintenance_title": "维护公告",
   "maintenance_message": "此项目已停止维护，感谢你的使用。",
   "notes": {
