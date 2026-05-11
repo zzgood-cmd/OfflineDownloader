@@ -1,12 +1,12 @@
 {
   "name": "OfflineDownloader",
-  "version": "V1.6.5",
+  "version": "V1.6.6",
   "channel": "stable",
   "release_date": "2026-05-11",
   "homepage": "https://github.com/zzgood-cmd/OfflineDownloader",
-  "release_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/tag/V1.6.5",
-  "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.5/offline-downloader-docker-v1.6.5.tar.gz",
-  "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.5/offline-downloader-onekey-install-v1.6.5.sh",
+  "release_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/tag/V1.6.6",
+  "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.6/offline-downloader-docker-v1.6.6.tar.gz",
+  "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.6/offline-downloader-onekey-install-v1.6.6.sh",
   "force_update": false,
   "minimum_required_version": "",
   "maintenance_enabled": false,
@@ -15,12 +15,12 @@
   "maintenance_message": "此项目已停止维护，感谢你的使用。",
   "notes": {
     "zh": [
-      "管理员新增配置备份/恢复，可导出账号、额度、设置、Tracker 和任务来源等配置。",
-      "恢复配置前会自动保存当前配置快照，避免误操作后无法找回。"
+      "修复维护阻断开启后刷新页面偶尔可继续使用的问题。",
+      "维护阻断现在会保存本地锁定状态，远程配置临时读取失败时也不会放行业务入口。"
     ],
     "en": [
-      "Admins can now back up and restore configuration such as accounts, quotas, settings, trackers, and task sources.",
-      "A snapshot of the current configuration is saved before restore to reduce accidental data loss."
+      "Fixed an issue where the site could occasionally remain usable after refreshing while maintenance blocking was enabled.",
+      "Maintenance blocking now stores a local lock state so business routes remain blocked even if the remote config is temporarily unavailable."
     ]
   },
   "minimum_supported_version": "V1.0.0"
