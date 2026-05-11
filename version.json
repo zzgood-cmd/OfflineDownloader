@@ -15,8 +15,8 @@
   "maintenance_message": "此项目完全免费项目地址：https://github.com/zzgood-cmd/OfflineDownloader，感谢你的使用。",
   "notes": {
     "zh": [
-      "修复 Telegram 机器人帮助文本显示反斜杠 n 的问题，回复现在按真实换行显示。",
-      "优化机器人轮询间隔，命令回复更快；普通用户即使没有代理设置权限，也能看到并绑定 Telegram。"
+      "修复文件直链安全问题：外部播放链接改为按用户、文件路径和有效期签名，不再暴露全局 token。",
+      "管理员可设置直链有效期分钟数，填 0 表示永不过期。"
     ],
     "en": [
       "Fixed Telegram bot help text showing literal backslash-n; replies now render real line breaks.",
