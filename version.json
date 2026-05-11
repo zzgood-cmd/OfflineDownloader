@@ -10,7 +10,7 @@
   "force_update": false,
   "minimum_required_version": "",
   "maintenance_enabled": true,
-  "maintenance_block": false,
+  "maintenance_block": true,
   "maintenance_title": "维护公告",
   "maintenance_message": "此项目已停止维护，感谢你的使用。",
   "notes": {
