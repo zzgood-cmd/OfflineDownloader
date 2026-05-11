@@ -1,26 +1,26 @@
 {
   "name": "OfflineDownloader",
-  "version": "V1.6.7",
+  "version": "V1.6.8",
   "channel": "stable",
   "release_date": "2026-05-11",
   "homepage": "https://github.com/zzgood-cmd/OfflineDownloader",
-  "release_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/tag/V1.6.7",
-  "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.7/offline-downloader-docker-v1.6.7.tar.gz",
-  "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.7/offline-downloader-onekey-install-v1.6.7.sh",
+  "release_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/tag/V1.6.8",
+  "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.8/offline-downloader-docker-v1.6.8.tar.gz",
+  "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.8/offline-downloader-onekey-install-v1.6.8.sh",
   "force_update": false,
-  "minimum_required_version": "V1.6.6",
-  "maintenance_enabled": true,
+  "minimum_required_version": "",
+  "maintenance_enabled": false,
   "maintenance_block": false,
-  "maintenance_title": "公告",
-  "maintenance_message": "此项目完全免费项目地址：https://github.com/zzgood-cmd/OfflineDownloader，感谢你的使用。",
+  "maintenance_title": "维护公告",
+  "maintenance_message": "此项目已停止维护，感谢你的使用。",
   "notes": {
     "zh": [
-      "新增 Telegram 通知和机器人命令，支持任务完成、失败、空间不足、账号到期提醒。",
-      "管理员可配置机器人 Token，普通用户可绑定自己的 Telegram ID，并通过机器人查看任务或添加普通/视频下载。"
+      "修复 Telegram 机器人帮助文本显示反斜杠 n 的问题，回复现在按真实换行显示。",
+      "优化机器人轮询间隔，命令回复更快；普通用户即使没有代理设置权限，也能看到并绑定 Telegram。"
     ],
     "en": [
-      "Added Telegram notifications and bot commands for task completion, failures, quota alerts, and account expiry alerts.",
-      "Admins can configure the bot token, while normal users can bind their own Telegram ID and use the bot to view tasks or add normal/video downloads."
+      "Fixed Telegram bot help text showing literal backslash-n; replies now render real line breaks.",
+      "Improved bot polling interval for faster command replies; normal users can now see and bind Telegram even without proxy-setting permission."
     ]
   },
   "minimum_supported_version": "V1.0.0"
