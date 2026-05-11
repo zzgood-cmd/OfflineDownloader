@@ -8,11 +8,11 @@
   "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.7/offline-downloader-docker-v1.6.7.tar.gz",
   "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.6.7/offline-downloader-onekey-install-v1.6.7.sh",
   "force_update": false,
-  "minimum_required_version": "",
-  "maintenance_enabled": false,
+  "minimum_required_version": "V1.6.6",
+  "maintenance_enabled": true,
   "maintenance_block": false,
-  "maintenance_title": "维护公告",
-  "maintenance_message": "此项目已停止维护，感谢你的使用。",
+  "maintenance_title": "公告",
+  "maintenance_message": "此项目完全免费项目地址：https://github.com/zzgood-cmd/OfflineDownloader，感谢你的使用。",
   "notes": {
     "zh": [
       "新增 Telegram 通知和机器人命令，支持任务完成、失败、空间不足、账号到期提醒。",
