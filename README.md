@@ -24,7 +24,7 @@
 下载一键安装脚本后执行：
 
 ```bash
-sudo bash offline-downloader-onekey-install-v1.6.3.sh
+sudo bash offline-downloader-onekey-install-v1.6.6.sh
 ```
 
 安装完成后会显示：
@@ -45,7 +45,7 @@ sudo bash offline-downloader-onekey-install-v1.6.3.sh
 如果需要自定义端口：
 
 ```bash
-sudo WEB_PORT=8080 BT_PORT=6881 bash offline-downloader-onekey-install-v1.6.3.sh
+sudo WEB_PORT=8080 BT_PORT=6881 bash offline-downloader-onekey-install-v1.6.6.sh
 ```
 
 安装完成后，请在云服务器安全组放行对应端口。
@@ -53,7 +53,7 @@ sudo WEB_PORT=8080 BT_PORT=6881 bash offline-downloader-onekey-install-v1.6.3.sh
 ## 手动安装
 
 ```bash
-tar -xzf offline-downloader-docker-v1.6.3.tar.gz
+tar -xzf offline-downloader-docker-v1.6.6.tar.gz
 cd offline-downloader-docker
 sudo bash install.sh
 ```
@@ -65,7 +65,7 @@ sudo bash install.sh
 上传更新包通常使用：
 
 ```text
-offline-downloader-docker-v1.6.3.tar.gz
+offline-downloader-docker-v1.6.6.tar.gz
 ```
 
 也可以进入项目目录后执行：
@@ -120,7 +120,3 @@ bash uninstall.sh
 ```
 
 默认卸载不会删除 `data/` 和 `downloads/`。
-
-## License
-
-本项目仅供学习和合法用途使用。发布到 GitHub 前，请根据你的需要补充正式开源许可证。
