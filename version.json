@@ -15,8 +15,8 @@
   "maintenance_message": "此项目完全免费项目地址：https://github.com/zzgood-cmd/OfflineDownloader，感谢你的使用。",
   "notes": {
     "zh": [
-      "修复分享记录时间显示，现已跟随管理员设置的服务器时间时区。",
-      "分享记录新增删除分享按钮，删除后链接会立刻失效。"
+      "新增受信任设备登录校验：已信任设备可快速通过登录验证，新设备仍需完成滑块验证。",
+      "滑块验证码和滑块验证码 V2 统一改为先点“我不是机器人”，带转圈校验效果后再决定直接通过或弹出滑块。"
     ],
     "en": [
       "Fixed Telegram bot help text showing literal backslash-n; replies now render real line breaks.",
