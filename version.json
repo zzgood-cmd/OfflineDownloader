@@ -15,8 +15,8 @@
   "maintenance_message": "此项目完全免费项目地址：https://github.com/zzgood-cmd/OfflineDownloader，感谢你的使用。",
   "notes": {
     "zh": [
-      "修复文件直链安全问题：外部播放链接改为按用户、文件路径和有效期签名，不再暴露全局 token。",
-      "管理员可设置直链有效期分钟数，填 0 表示永不过期。"
+      "修复分享记录时间显示，现已跟随管理员设置的服务器时间时区。",
+      "分享记录新增删除分享按钮，删除后链接会立刻失效。"
     ],
     "en": [
       "Fixed Telegram bot help text showing literal backslash-n; replies now render real line breaks.",
