@@ -24,7 +24,7 @@
 下载一键安装脚本后执行：
 
 ```bash
-sudo bash offline-downloader-onekey-install-v1.7.3.sh
+sudo bash offline-downloader-onekey-install-v1.8.9.sh
 ```
 
 安装完成后会显示：
@@ -45,7 +45,7 @@ sudo bash offline-downloader-onekey-install-v1.7.3.sh
 如果需要自定义端口：
 
 ```bash
-sudo WEB_PORT=8080 BT_PORT=6881 bash offline-downloader-onekey-install-v1.7.3.sh
+sudo WEB_PORT=8080 BT_PORT=6881 bash offline-downloader-onekey-install-v1.8.9.sh
 ```
 
 安装完成后，请在云服务器安全组放行对应端口。
@@ -53,7 +53,7 @@ sudo WEB_PORT=8080 BT_PORT=6881 bash offline-downloader-onekey-install-v1.7.3.sh
 ## 手动安装
 
 ```bash
-tar -xzf offline-downloader-docker-v1.7.3.tar.gz
+tar -xzf offline-downloader-docker-v1.8.9.tar.gz
 cd offline-downloader-docker
 sudo bash install.sh
 ```
@@ -65,7 +65,7 @@ sudo bash install.sh
 上传更新包通常使用：
 
 ```text
-offline-downloader-docker-v1.7.3.tar.gz
+offline-downloader-docker-v1.8.9.tar.gz
 ```
 
 也可以进入项目目录后执行：
@@ -98,20 +98,8 @@ bash update.sh
 https://raw.githubusercontent.com/zzgood-cmd/OfflineDownloader/main/version.json
 ```
 
-当前稳定版：`V1.8.5`
+当前稳定版：`V1.8.9`
 
-`version.json` 还支持维护公告字段，默认关闭：
-
-```json
-{
-  "maintenance_enabled": false,
-  "maintenance_block": false,
-  "maintenance_title": "维护公告",
-  "maintenance_message": "此项目已停止维护，感谢你的使用。"
-}
-```
-
-当 `maintenance_enabled` 和 `maintenance_block` 都为 `true` 时，程序会显示维护公告并暂停登录和业务接口。
 
 ## 卸载
 
