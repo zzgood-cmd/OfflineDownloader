@@ -1,12 +1,12 @@
 {
   "name": "OfflineDownloader",
-  "version": "V1.8.7",
+  "version": "V1.8.8",
   "channel": "stable",
-  "release_date": "2026-05-14",
+  "release_date": "2026-05-16",
   "homepage": "https://github.com/zzgood-cmd/OfflineDownloader",
-  "release_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/tag/V1.8.7",
-  "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.8.7/offline-downloader-docker-v1.8.7.tar.gz",
-  "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.8.7/offline-downloader-onekey-install-v1.8.7.sh",
+  "release_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/tag/V1.8.8",
+  "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.8.8/offline-downloader-docker-v1.8.8.tar.gz",
+  "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.8.8/offline-downloader-onekey-install-v1.8.8.sh",
   "force_update": false,
   "minimum_required_version": "V1.8.2",
   "maintenance_enabled": true,
@@ -15,8 +15,9 @@
   "maintenance_message": "此项目完全免费项目地址：https://github.com/zzgood-cmd/OfflineDownloader，感谢你的使用。",
   "notes": {
     "zh": [
-      "新增受信任设备登录校验：已信任设备可快速通过登录验证，新设备仍需完成滑块验证。",
-      "滑块验证码和滑块验证码 V2 统一改为先点“我不是机器人”，带转圈校验效果后再决定直接通过或弹出滑块。"
+      "登录后的顶部、侧边栏、统计卡片、任务列表、文件表格和设置面板统一改成更克制的 iOS 风格。",
+      "整站加入半透明玻璃卡片、圆角层次、轻微悬浮和入场动画，同时保留原有功能布局。"
+      "手机端同步优化：导航、统计区、操作按钮和表格滚动在小屏幕上更顺手。"
     ],
     "en": [
       "Fixed Telegram bot help text showing literal backslash-n; replies now render real line breaks.",
