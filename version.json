@@ -9,7 +9,7 @@
   "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.8.8/offline-downloader-onekey-install-v1.8.8.sh",
   "force_update": false,
   "minimum_required_version": "V1.8.2",
-  "maintenance_enabled": true
+  "maintenance_enabled": true,
   "maintenance_block": false,
   "maintenance_title": "公告",
   "maintenance_message": "此项目完全免费项目地址：https://github.com/zzgood-cmd/OfflineDownloader，感谢你的使用。",
