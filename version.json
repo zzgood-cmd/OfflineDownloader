@@ -8,11 +8,11 @@
   "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.8.8/offline-downloader-docker-v1.8.8.tar.gz",
   "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.8.8/offline-downloader-onekey-install-v1.8.8.sh",
   "force_update": false,
-  "minimum_required_version": "",
-  "maintenance_enabled": false,
+  "minimum_required_version": "V1.8.2",
+  "maintenance_enabled": true
   "maintenance_block": false,
-  "maintenance_title": "维护公告",
-  "maintenance_message": "此项目已停止维护，感谢你的使用。",
+  "maintenance_title": "公告",
+  "maintenance_message": "此项目完全免费项目地址：https://github.com/zzgood-cmd/OfflineDownloader，感谢你的使用。",
   "notes": {
     "zh": [
       "分享记录里的复制直链旁新增二维码按钮，可直接查看当前分享链接的二维码。",
