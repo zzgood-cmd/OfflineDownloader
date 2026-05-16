@@ -8,7 +8,7 @@
   "package_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.8.9/offline-downloader-docker-v1.8.9.tar.gz",
   "install_script_url": "https://github.com/zzgood-cmd/OfflineDownloader/releases/download/V1.8.9/offline-downloader-onekey-install-v1.8.9.sh",
   "force_update": false,
-  "minimum_required_version": "V1.8.2",
+  "minimum_required_version": "",
   "maintenance_enabled": true,
   "maintenance_block": false,
   "maintenance_title": "公告",
