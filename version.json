@@ -15,8 +15,10 @@
   "maintenance_message": "此项目完全免费项目地址：https://github.com/zzgood-cmd/OfflineDownloader，感谢你的使用。",
   "notes": {
     "zh": [
-      "分享记录里的复制直链旁新增二维码按钮，可直接查看当前分享链接的二维码。",
-      "二维码弹层支持显示完整分享链接，方便手机扫码或跨设备打开。"
+      "左侧菜单新增 API Token 管理页，可为脚本、快捷指令和第三方工具创建独立 Token。",
+      "API Token 权限拆分为读取状态、下载任务、文件操作、上传文件、删除文件、管理员操作六类开关，并支持到期日期、IP 白名单、启用/停用。",
+      "API Token 页面新增详细接口调用说明，新增 /api/v1/file-content 文件内容下载接口，并支持复制当前 Token、复制示例命令、重新生成历史 Token。",
+      "文件上传支持一次选择多个文件，并按队列自动上传，上传列表可看到等待、上传中、完成或取消状态。"
     ],
     "en": [
       "Added a QR-code button next to Copy direct link in Share Records so each share can be previewed as a QR code.",
